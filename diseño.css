@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #d650ff;
+}
+
+.tarjeta {
+    background: linear-gradient(135deg, #FFD700, #00BFFF), url('fondo.jpg');
+    background-size: cover;
+    background-blend-mode: multiply;
+    width: 300px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #ffffff; /* Color del texto */
+}
+
+.tarjeta h1 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.foto img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.nombre {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.ocupacion {
+    font-size: 18px;
+    color: #666666;
+    margin-bottom: 16px;
+}
+
+.presentacion p {
+    font-size: 14px;
+    margin: 4px 0;
+    line-height: 1.6;
+}
+
+.contacto p {
+    font-size: 14px;
+    margin: 4px 0;
+}
